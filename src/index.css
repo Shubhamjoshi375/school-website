@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+:root{
+    --font-color:#63B1AF;
+}
