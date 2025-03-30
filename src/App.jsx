@@ -1,15 +1,17 @@
-import './App.css'
-import { AiFillAndroid } from "react-icons/ai";
+import './App.css';
+
 import Footer from './Components/Footer';
+import Header from './Components/Header';
 
 function App() {
-
   return (
     <>
-    <h1>hello</h1>
-    <Footer/>
+      <Header />
+      <h1>hello</h1>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
