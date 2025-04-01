@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
-:root{
-    --font-color:#63B1AF;
+:root {
+    --font-color: #6DB6B5;
+    --light-color: #FFFFFF;
+    --card-bg:#E9F6F5;
 }
