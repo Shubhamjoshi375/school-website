@@ -15,7 +15,7 @@ export default function ImageSlider({className=''}) {
   const prevSlide = () => setIndex((prev) => (prev - 1 + images.length) % images.length);
 
   return (
-    <div className={`${className} relative w-full h-90 md:h-150 mx-auto overflow-hidden rounded-lg shadow-lg`}>
+    <div className={`${className} relative w-full h-90 md:h-150 mx-auto overflow-hidden shadow-lg`}>
       <AnimatePresence mode="wait">
         <motion.img
           key={images[index]}
