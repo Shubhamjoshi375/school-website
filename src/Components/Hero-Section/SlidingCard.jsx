@@ -2,7 +2,7 @@ import React from 'react';
 
 function SlidingCard({ Icon, heading, summary, btnContent,bgColor }) {
   return (
-    <div className={`flex flex-col md:flex-row items-center justify-center p-9 md:w-70 md:h-70 group md:overflow-hidden md:relative`}
+    <div className={`shadow-lg flex flex-col md:flex-row items-center justify-center p-9 md:w-70 md:h-70 group md:overflow-hidden md:relative`}
       style={{ backgroundColor: bgColor }}
     >
 
