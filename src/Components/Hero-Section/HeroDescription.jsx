@@ -33,7 +33,7 @@ const HeroDescription = () => {
 
             <div className="md:col-span-2">
               <img
-                src="/herosec4.webp"
+                src="/photo4.webp"
                 alt="Main School Image"
                 className="w-full h-64 md:h-80 lg:h-96 object-cover rounded-xl shadow-md"
               />
@@ -42,19 +42,19 @@ const HeroDescription = () => {
 
             <div>
               <img
-                src="/herosec3.webp"
+                src="/photo3.webp"
                 alt="Teacher helping students"
                 className="w-full h-100 object-cover rounded-xl shadow-md"
               />
             </div>
             <div className="space-y-4">
               <img
-                src="/herosec (2).webp"
+                src="/photo2.webp"
                 alt="Student writing"
                 className="w-full h-50  object-cover rounded-xl shadow-md"
               />
               <img
-                src="/herosec.webp"
+                src="/photo.webp"
                 alt="Happy students"
                 className="w-full h-45  object-cover rounded-xl shadow-md"
               />

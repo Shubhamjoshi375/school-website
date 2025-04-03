@@ -4,6 +4,7 @@ import CardCollection from "../Components/Hero-Section/CardCollection";
 import ImageSlider from "../Components/Hero-Section/ImageSlider";
 import News from "../Components/Hero-Section/News";
 import Slogan from "../Components/Hero-Section/Slogan";
+import FeaturesSection from "../Components/Hero-Section/FeaturesSection";
 function Home() {
   return (
     <div>
@@ -12,6 +13,7 @@ function Home() {
         <CardCollection className="md:absolute top-115" />
       </div>
       <HeroDescription />
+      <FeaturesSection />
       <Slogan slogan={"Empowering Young Minds with Excellence, Innovation, and Care – Choose the School of Almora for a Brighter Future!"}/>
       <News/>
       <div className="flex flex-col py-15 px-5 justify-center items-center pb-20 md:px-80">

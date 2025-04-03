@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const images = [
-  "/slidingImg1.webp",
-   "/slidingImg2.webp",
-  "/slidingImg3.webp",
+  "/photo7.webp",
+   "/photo5.webp",
+  "/photo9.webp",
 ];
 
 export default function ImageSlider({className=''}) {
