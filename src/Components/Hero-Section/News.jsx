@@ -2,11 +2,13 @@ import React from "react";
 
 function News() {
   return (
-    <div className="flex flex-col justify-center items-center bg-[var(--card-bg)] gap-10 py-10 px-10 md:px-40">
+    <div className="flex flex-col justify-center items-center bg-[var(--card-bg)] gap-10 pb-10 px-10 md:px-40">
+            <div className="w-[1px] h-22 bg-teal-600 mb-4"></div>
+
       <h1 className="text-center text-4xl font-bold my-10">In The News</h1>
 
       <div className="flex flex-col justify-center items-center md:flex-row md:gap-20 md:w-full">
-        <div className="border-3 border-black h-60 w-full md:w-50 md:h-40 overflow-hidden">
+        <div className="border-4 border-[var(--font-color)] h-60 w-full md:w-50 md:h-40 overflow-hidden">
           <img src="./photo6.webp" alt="" className="w-full h-full object-cover" />
         </div>
 
@@ -26,7 +28,7 @@ function News() {
 
       <div className="flex flex-col justify-center items-center gap-5 md:flex-row md:gap-20 md:w-full">
 
-        <div className="border-3 border-black h-60 w-full md:w-50 md:h-40 overflow-hidden">
+        <div className="border-4 border-[var(--font-color)] h-60 w-full md:w-50 md:h-40 overflow-hidden">
           <img src="./photo9.webp" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="flex flex-col gap-5 my-5 md:w-full md:border-b-1 md:h-40 md:justify-center">
@@ -44,7 +46,7 @@ function News() {
       </div>
 
       <div className="flex flex-col justify-center items-center gap-5 md:flex-row md:gap-20 md:w-full">
-      <div className="border-3 border-black h-60 w-full md:w-50 md:h-40 overflow-hidden">
+      <div className="border-4 border-[var(--font-color)] h-60 w-full md:w-50 md:h-40 overflow-hidden">
           <img src="./photo10.webp" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="flex flex-col gap-5 my-5 md:w-full md:border-b-1 md:h-40 md:justify-center">
@@ -62,7 +64,7 @@ function News() {
       </div>
 
       <div className="flex flex-col justify-center items-center gap-5 md:flex-row md:gap-20 md:w-full">
-      <div className="border-3 border-black h-60 w-full md:w-50 md:h-40 overflow-hidden">
+      <div className="border-4 border-[var(--font-color)] h-60 w-full md:w-50 md:h-40 overflow-hidden">
           <img src="./photo8.webp" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="flex flex-col gap-5 my-5 md:w-full md:border-b-1 md:h-40 md:justify-center">
