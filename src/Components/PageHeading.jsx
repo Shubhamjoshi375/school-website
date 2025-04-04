@@ -4,7 +4,7 @@ import React from "react";
 function PageHeading({ content,imageUrl }) {
   return (
     <div className="md:relative  md:mb-10">
-      <div className="border-black border-2 w-full h-35 md:h-100 bg-cover  "
+      <div className="w-full h-45 md:h-100 bg-cover bg-center"
         style={{ backgroundImage: `url(${imageUrl})` }}
       >
       </div>

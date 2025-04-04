@@ -5,7 +5,7 @@ import CardCollection from "../Components/Hero-Section/CardCollection";
 function About() {
   return (
     <div>
-      <PageHeading content={"Get to Know Us"} imageUrl={""} />
+      <PageHeading content={"Get to Know Us"} imageUrl={"/photo7.webp"} />
       <div className="flex flex-col justify-center items-center  gap-10 pt-10 pb-10 px-5 md:px-30 md:pt-30">
         <h1 className="text-center text-4xl font-bold ">
           A Community Where Students Shape Their Journey
@@ -14,7 +14,9 @@ function About() {
         <div className="w-full md:px-15 flex flex-col gap-10">
           <div className="flex flex-col gap-10 ">
             <div className="w-full flex flex-col md:flex-row md:gap-5 md:items-center">
-              <div className="border h-35 w-full md:h-45"></div>
+              <div className="h-35 w-full md:h-45  shadow bg-cover bg-center bg-full"
+              style={{backgroundImage:'url(/photo10.webp)'}}
+              ></div>
               <p className="text-center">
                 The Almora School is a non-profit, mastery-based, independent
                 school designed to implement the innovative educational ideas by

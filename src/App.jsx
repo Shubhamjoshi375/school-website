@@ -12,9 +12,9 @@ function App() {
     <>
       <Header />
 
-
-
-      <About/>
+      {/* <Home/> */}
+      {/* <About/> */}
+      <Admissions/>
 
       
 

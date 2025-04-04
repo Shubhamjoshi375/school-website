@@ -1,12 +1,13 @@
 import React from 'react';
 
 import PageHeading from '../Components/PageHeading';
+import CardCollection from '../Components/Hero-Section/CardCollection'
 
 const Admissions = () => {
     return (
         <div>
             
-            <PageHeading content={"Meet the Admissions Team"} imageUrl={""} />
+            <PageHeading content={"Meet the Admissions Team"} imageUrl={"/photo4.webp"} />
 
             
             <div className="flex flex-col md:flex-row justify-between gap-10 pt-10 pb-10 px-5 md:px-40">
@@ -43,6 +44,7 @@ const Admissions = () => {
 
 
                         {/* bhai yha pe slider gkkkkkkk */}
+                        <CardCollection className={'mt-10'}/>
 
                     </div>
                 </div>
