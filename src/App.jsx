@@ -6,6 +6,7 @@ import Header from "./Components/Header";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Admissions from "./Pages/Admissions";
+import StudentLife from "./Pages/StudentLife";
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
 
       {/* <Home/> */}
       {/* <About/> */}
-      <Admissions/>
-
+      {/* <Admissions/> */}
+      <StudentLife/>
       
 
       <Footer />
