@@ -78,9 +78,7 @@ This template was created as a **React learning project** by Ankit & Gaurav. It'
 
 ---
 
-## 🖥️ UI Preview
 
-![Website Banner](/public/banner.png)
 
 ---
 
