@@ -13,10 +13,10 @@ function App() {
     <>
       <Header />
 
-      {/* <Home/> */}
+      <Home/>
       {/* <About/> */}
       {/* <Admissions/> */}
-      <StudentLife/>
+      {/* <StudentLife/> */}
       
 
       <Footer />
