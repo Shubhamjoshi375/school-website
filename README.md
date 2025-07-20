@@ -21,9 +21,7 @@ We built this to explore:
 
 ## 👨‍💻 Collaboration
 
-Built with 💙 by:
-- **Ankit**
-- **Gaurav**
+
 
 ---
 
@@ -73,8 +71,7 @@ This template was created as a **React learning project** by Ankit & Gaurav. It'
 
 ## 👨‍💻 Collaborators
 
-- [Ankit](#)
-- [Gaurav](#)
+-shubham joshi
 
 ---
 
